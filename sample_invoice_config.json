@@ -1,0 +1,58 @@
+{
+    "seller": {
+        "name": "ABC Trading Company",
+        "vat": "310000000000003",
+        "id_number": "1234567890",
+        "id_scheme": "CRN",
+        "address": {
+            "street": "King Fahd Road",
+            "building": "3454",
+            "city": "Riyadh",
+            "district": "Al Olaya District",
+            "postal_code": "12345",
+            "country_code": "SA"
+        }
+    },
+    "buyer": {
+        "name": "XYZ Corporation",
+        "id_number": "2345678901",
+        "id_scheme": "NAT",
+        "address": {
+            "street": "Prince Mohammed Bin Salman Road",
+            "building": "2212",
+            "city": "Riyadh",
+            "district": "Al Nakheel District",
+            "postal_code": "11564",
+            "country_code": "SA"
+        }
+    },
+    "invoice_number": "INV-20230501-001",
+    "issue_date": "2023-05-01",
+    "issue_time": "13:45:00",
+    "tax_rate": 15,
+    "currency": "SAR",
+    "payment_means_code": "10",
+    "items": [
+        {
+            "id": 1,
+            "name": "Office Desk",
+            "price": 1200.00,
+            "quantity": 2,
+            "unit_code": "PCE"
+        },
+        {
+            "id": 2,
+            "name": "Office Chair",
+            "price": 450.00,
+            "quantity": 4,
+            "unit_code": "PCE"
+        },
+        {
+            "id": 3,
+            "name": "Filing Cabinet",
+            "price": 350.00,
+            "quantity": 1,
+            "unit_code": "PCE"
+        }
+    ]
+}
